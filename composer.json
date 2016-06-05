@@ -1,0 +1,22 @@
+{
+   "minimum-stability": "dev",
+   "prefer-stable": true,
+   "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/atoum-standard-edition"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/atoum-config-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/atoum"
+        }
+    ],
+    "require": {
+        "atoum/standard-edition": "*",
+        "atoum/atoum": "dev-edition_configuration as 2.7.0"
+    }
+}
