@@ -4,7 +4,7 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/agallou/atoum-standard-edition"
+            "url": "/home/agallou/Projets/atoum-standard-edition"
         },
         {
             "type": "vcs",
@@ -12,11 +12,16 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/agallou/atoum"
+            "url": "/home/agallou/Projets/atoum"
         }
     ],
     "require": {
-        "atoum/standard-edition": "*",
-        "atoum/atoum": "dev-edition_configuration as 2.7.0"
+      "atoum/standard-edition": "dev-changements",
+      "atoum/atoum": "dev-edition_configuration_v2 as 2.7.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "monvendor\\monproject\\": "src/"
+      }
     }
 }

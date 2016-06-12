@@ -1,11 +1,13 @@
 <?php
 
+namespace monvendor\monproject;
+
 class Example
 {
 
 	public function doSometing()
 	{
-		return 44;
+		return 40;
 	}
 
 }

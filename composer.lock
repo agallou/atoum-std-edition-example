@@ -4,22 +4,16 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "9ef82ea4112cd3d7c02ea35dbefd57e7",
-    "content-hash": "8f2344bb116aee9aaac6b1c0e0ba90fa",
+    "hash": "1d7f5fe8b8576373f5960d5057a2ee08",
+    "content-hash": "3499d01683efd95c04c51a88c5d0afe7",
     "packages": [
         {
             "name": "atoum/atoum",
-            "version": "dev-edition_configuration",
+            "version": "dev-edition_configuration_v2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/agallou/atoum.git",
-                "reference": "a30bee1ffb6c840457575cde7a0f539b9dd73c33"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/agallou/atoum/zipball/a30bee1ffb6c840457575cde7a0f539b9dd73c33",
-                "reference": "a30bee1ffb6c840457575cde7a0f539b9dd73c33",
-                "shasum": ""
+                "url": "/home/agallou/Projets/atoum",
+                "reference": "7220e18318bb9d49e016c4e9a17497f38717a408"
             },
             "require": {
                 "ext-hash": "*",
@@ -84,10 +78,7 @@
                 "test",
                 "unit testing"
             ],
-            "support": {
-                "source": "https://github.com/agallou/atoum/tree/edition_configuration"
-            },
-            "time": "2016-06-05 15:59:57"
+            "time": "2016-06-12 15:51:58"
         },
         {
             "name": "atoum/autoloop-extension",
@@ -242,20 +233,14 @@
         },
         {
             "name": "atoum/standard-edition",
-            "version": "dev-master",
+            "version": "dev-changements",
             "source": {
                 "type": "git",
-                "url": "https://github.com/agallou/atoum-standard-edition.git",
-                "reference": "4066a12465c6790cccad291949d3ab9fa1454161"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/agallou/atoum-standard-edition/zipball/4066a12465c6790cccad291949d3ab9fa1454161",
-                "reference": "4066a12465c6790cccad291949d3ab9fa1454161",
-                "shasum": ""
+                "url": "/home/agallou/Projets/atoum-standard-edition",
+                "reference": "9edf22323e385f7feaaaf3634b5b905ef7679b47"
             },
             "require": {
-                "atoum/atoum": "dev-edition_configuration as 2.7.0",
+                "atoum/atoum": "dev-edition_configuration_v2 as 2.7.0",
                 "atoum/autoloop-extension": "^0.1.0",
                 "atoum/config-extension": "dev-merge_prs as 1.0",
                 "atoum/reports-extension": ">2.3,<3.0",
@@ -263,11 +248,12 @@
                 "atoum/visibility-extension": "dev-master as 1.0"
             },
             "type": "library",
-            "support": {
-                "source": "https://github.com/agallou/atoum-standard-edition/tree/master",
-                "issues": "https://github.com/agallou/atoum-standard-edition/issues"
+            "autoload": {
+                "files": [
+                    "autoload.php"
+                ]
             },
-            "time": "2016-06-05 16:07:36"
+            "time": "2016-06-12 16:03:50"
         },
         {
             "name": "atoum/stubs",
@@ -424,16 +410,16 @@
         },
         {
             "name": "symfony/config",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/config.git",
-                "reference": "edbbcf33cffa2a85104fc80de8dc052cc51596bb"
+                "reference": "a2edd59c2163c65747fc3f35d132b5a39266bd05"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/config/zipball/edbbcf33cffa2a85104fc80de8dc052cc51596bb",
-                "reference": "edbbcf33cffa2a85104fc80de8dc052cc51596bb",
+                "url": "https://api.github.com/repos/symfony/config/zipball/a2edd59c2163c65747fc3f35d132b5a39266bd05",
+                "reference": "a2edd59c2163c65747fc3f35d132b5a39266bd05",
                 "shasum": ""
             },
             "require": {
@@ -473,20 +459,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
-            "time": "2016-04-20 18:52:26"
+            "time": "2016-06-06 11:11:27"
         },
         {
             "name": "symfony/dependency-injection",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/dependency-injection.git",
-                "reference": "bd04588c087651ceffdc45d40dc4de05af9c7c52"
+                "reference": "2d05009d890cf1139988ff059b5b2e0eb280ed13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/bd04588c087651ceffdc45d40dc4de05af9c7c52",
-                "reference": "bd04588c087651ceffdc45d40dc4de05af9c7c52",
+                "url": "https://api.github.com/repos/symfony/dependency-injection/zipball/2d05009d890cf1139988ff059b5b2e0eb280ed13",
+                "reference": "2d05009d890cf1139988ff059b5b2e0eb280ed13",
                 "shasum": ""
             },
             "require": {
@@ -536,20 +522,20 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-09 18:12:35"
+            "time": "2016-06-06 11:11:27"
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "a158f13992a3147d466af7a23b564ac719a4ddd8"
+                "reference": "2a6b8713f8bdb582058cfda463527f195b066110"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/a158f13992a3147d466af7a23b564ac719a4ddd8",
-                "reference": "a158f13992a3147d466af7a23b564ac719a4ddd8",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/2a6b8713f8bdb582058cfda463527f195b066110",
+                "reference": "2a6b8713f8bdb582058cfda463527f195b066110",
                 "shasum": ""
             },
             "require": {
@@ -596,11 +582,11 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
-            "time": "2016-05-03 18:59:18"
+            "time": "2016-06-06 11:11:27"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.0.6",
+            "version": "v3.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
@@ -649,16 +635,16 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.6",
+            "version": "v2.8.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "e4fbcc65f90909c999ac3b4dfa699ee6563a9940"
+                "reference": "815fabf3f48c7d1df345a69d1ad1a88f59757b34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/e4fbcc65f90909c999ac3b4dfa699ee6563a9940",
-                "reference": "e4fbcc65f90909c999ac3b4dfa699ee6563a9940",
+                "url": "https://api.github.com/repos/symfony/yaml/zipball/815fabf3f48c7d1df345a69d1ad1a88f59757b34",
+                "reference": "815fabf3f48c7d1df345a69d1ad1a88f59757b34",
                 "shasum": ""
             },
             "require": {
@@ -694,7 +680,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2016-03-29 19:00:15"
+            "time": "2016-06-06 11:11:27"
         },
         {
             "name": "twig/twig",
@@ -763,12 +749,13 @@
         {
             "alias": "2.7.0",
             "alias_normalized": "2.7.0.0",
-            "version": "dev-edition_configuration",
+            "version": "dev-edition_configuration_v2",
             "package": "atoum/atoum"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
+        "atoum/standard-edition": 20,
         "atoum/atoum": 20
     },
     "prefer-stable": true,

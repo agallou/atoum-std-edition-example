@@ -1,8 +1,6 @@
 <?php
 
-namespace tests\units;
-
-require_once __DIR__ . '/../src/Example.php';
+namespace monvendor\monproject\tests\units;
 
 class Example extends \atoum
 {
@@ -10,9 +8,9 @@ class Example extends \atoum
 	public function testDoSomething()
 	{
 		$this
-			->given($example = new \Example())
+			->given($example = new \monvendor\monproject\Example())
 			->integer($example->doSometing())
-				->isEqualTo(46)
+				->isEqualTo(40)
 		;
 	}
 }
