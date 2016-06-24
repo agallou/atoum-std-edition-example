@@ -13,5 +13,14 @@ class Example extends \atoum
 				->isEqualTo(40)
 		;
 	}
+
+	public function testVisiblityIsLoaded()
+	{
+		$this
+			->given($example = new \monvendor\monproject\Example())
+			->string($this->invoke($example)->protegee())
+			->isIdenticalTo('content')
+		;
+	}
 }
 

@@ -10,4 +10,9 @@ class Example
 		return 40;
 	}
 
+	protected function protegee()
+	{
+		return 'content';
+	}
+
 }
