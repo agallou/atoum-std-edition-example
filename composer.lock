@@ -4,16 +4,22 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1d7f5fe8b8576373f5960d5057a2ee08",
-    "content-hash": "3499d01683efd95c04c51a88c5d0afe7",
+    "hash": "69dfea1014b7c550ea9a54d811ad80fb",
+    "content-hash": "b2a97555dafa49f9e501a07622aaa37f",
     "packages": [
         {
             "name": "atoum/atoum",
-            "version": "dev-edition_configuration_v2",
+            "version": "dev-merge_prs",
             "source": {
                 "type": "git",
-                "url": "/home/agallou/Projets/atoum",
-                "reference": "7220e18318bb9d49e016c4e9a17497f38717a408"
+                "url": "https://github.com/agallou/atoum.git",
+                "reference": "3154b3f85ae12040494d4d8ad98aec3390c0045e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agallou/atoum/zipball/3154b3f85ae12040494d4d8ad98aec3390c0045e",
+                "reference": "3154b3f85ae12040494d4d8ad98aec3390c0045e",
+                "shasum": ""
             },
             "require": {
                 "ext-hash": "*",
@@ -78,33 +84,38 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2016-06-12 15:51:58"
+            "support": {
+                "source": "https://github.com/agallou/atoum/tree/merge_prs"
+            },
+            "time": "2016-06-19 16:33:12"
         },
         {
             "name": "atoum/autoloop-extension",
-            "version": "0.1.0",
+            "version": "dev-self_register",
             "source": {
                 "type": "git",
                 "url": "https://github.com/atoum/autoloop-extension.git",
-                "reference": "8c0a277623f31b4f2fa39478bd55679e0b65c987"
+                "reference": "8539a85462df2a8c213cb0a21b0c09641eb39af4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/autoloop-extension/zipball/8c0a277623f31b4f2fa39478bd55679e0b65c987",
-                "reference": "8c0a277623f31b4f2fa39478bd55679e0b65c987",
+                "url": "https://api.github.com/repos/atoum/autoloop-extension/zipball/8539a85462df2a8c213cb0a21b0c09641eb39af4",
+                "reference": "8539a85462df2a8c213cb0a21b0c09641eb39af4",
                 "shasum": ""
             },
             "require": {
-                "atoum/atoum": ">=2.6.0,<3.0",
+                "atoum/atoum": ">=2.8.0,<3.0",
                 "henrikbjorn/lurker": ">=1.1,<2.0"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "mageekguy\\atoum\\autoloop\\": "classes"
-                }
+                },
+                "files": [
+                    "autoloader.php"
+                ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -121,7 +132,11 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2016-05-29 21:24:39"
+            "support": {
+                "source": "https://github.com/atoum/autoloop-extension/tree/self_register",
+                "issues": "https://github.com/atoum/autoloop-extension/issues"
+            },
+            "time": "2016-06-23 21:09:13"
         },
         {
             "name": "atoum/config-extension",
@@ -129,16 +144,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/agallou/atoum-config-extension.git",
-                "reference": "440cb0795314d1d5abd64fc5a8e2a47fc6528065"
+                "reference": "dc20eb64534536da151322dc78360a61d7e36dba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/agallou/atoum-config-extension/zipball/440cb0795314d1d5abd64fc5a8e2a47fc6528065",
-                "reference": "440cb0795314d1d5abd64fc5a8e2a47fc6528065",
+                "url": "https://api.github.com/repos/agallou/atoum-config-extension/zipball/dc20eb64534536da151322dc78360a61d7e36dba",
+                "reference": "dc20eb64534536da151322dc78360a61d7e36dba",
                 "shasum": ""
             },
             "require": {
-                "atoum/atoum": "<3.0",
+                "atoum/atoum": "^2.8",
                 "symfony/config": "~2.6",
                 "symfony/dependency-injection": "~2.6",
                 "symfony/yaml": "~2.6"
@@ -172,29 +187,27 @@
             "support": {
                 "source": "https://github.com/agallou/atoum-config-extension/tree/merge_prs"
             },
-            "time": "2016-06-05 15:05:17"
+            "time": "2016-06-23 20:47:45"
         },
         {
             "name": "atoum/reports-extension",
-            "version": "2.3.1",
+            "version": "dev-self_register",
             "source": {
                 "type": "git",
-                "url": "https://github.com/atoum/reports-extension.git",
-                "reference": "3668e04d90d91d2353a86d86a32fbb500885c6b5"
+                "url": "https://github.com/agallou/reports-extension.git",
+                "reference": "ec06e8e6d3a6cc4602dcd322623055708d82c3b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/reports-extension/zipball/3668e04d90d91d2353a86d86a32fbb500885c6b5",
-                "reference": "3668e04d90d91d2353a86d86a32fbb500885c6b5",
+                "url": "https://api.github.com/repos/agallou/reports-extension/zipball/ec06e8e6d3a6cc4602dcd322623055708d82c3b9",
+                "reference": "ec06e8e6d3a6cc4602dcd322623055708d82c3b9",
                 "shasum": ""
             },
             "require": {
+                "atoum/atoum": "^2.8",
                 "php": ">=5.4.0",
                 "symfony/filesystem": "^2.6 | ^3.0",
                 "twig/twig": "^1.18"
-            },
-            "require-dev": {
-                "atoum/atoum": "^2.5.1"
             },
             "type": "library",
             "extra": {
@@ -210,7 +223,11 @@
                     "autoloader.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "files": [
+                    "tests/autoloader.php"
+                ]
+            },
             "license": [
                 "BSD"
             ],
@@ -229,23 +246,32 @@
                 "test",
                 "unit testing"
             ],
-            "time": "2016-05-24 12:44:54"
+            "support": {
+                "source": "https://github.com/agallou/reports-extension/tree/self_register"
+            },
+            "time": "2016-06-24 19:09:17"
         },
         {
             "name": "atoum/standard-edition",
-            "version": "dev-changements",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "/home/agallou/Projets/atoum-standard-edition",
-                "reference": "9edf22323e385f7feaaaf3634b5b905ef7679b47"
+                "url": "https://github.com/agallou/atoum-standard-edition.git",
+                "reference": "8ccf93ddec6ab87e68bfe6b52e33eb6893c0b448"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agallou/atoum-standard-edition/zipball/8ccf93ddec6ab87e68bfe6b52e33eb6893c0b448",
+                "reference": "8ccf93ddec6ab87e68bfe6b52e33eb6893c0b448",
+                "shasum": ""
             },
             "require": {
-                "atoum/atoum": "dev-edition_configuration_v2 as 2.7.0",
+                "atoum/atoum": "dev-merge_prs as 2.8.0",
                 "atoum/autoloop-extension": "^0.1.0",
                 "atoum/config-extension": "dev-merge_prs as 1.0",
-                "atoum/reports-extension": ">2.3,<3.0",
+                "atoum/reports-extension": "dev-self_register as 2.9",
                 "atoum/stubs": "^2.5",
-                "atoum/visibility-extension": "dev-master as 1.0"
+                "atoum/visibility-extension": "dev-self_register as 1.1"
             },
             "type": "library",
             "autoload": {
@@ -253,7 +279,11 @@
                     "autoload.php"
                 ]
             },
-            "time": "2016-06-12 16:03:50"
+            "support": {
+                "source": "https://github.com/agallou/atoum-standard-edition/tree/master",
+                "issues": "https://github.com/agallou/atoum-standard-edition/issues"
+            },
+            "time": "2016-06-24 18:47:02"
         },
         {
             "name": "atoum/stubs",
@@ -304,20 +334,20 @@
         },
         {
             "name": "atoum/visibility-extension",
-            "version": "dev-master",
+            "version": "dev-self_register",
             "source": {
                 "type": "git",
-                "url": "https://github.com/atoum/visibility-extension.git",
-                "reference": "2c61716971a9c29fca8dbc45324e66c9ec16c0f4"
+                "url": "https://github.com/agallou/visibility-extension.git",
+                "reference": "ffdeaa14f74e57d597805896c9914baf73850d85"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/atoum/visibility-extension/zipball/2c61716971a9c29fca8dbc45324e66c9ec16c0f4",
-                "reference": "2c61716971a9c29fca8dbc45324e66c9ec16c0f4",
+                "url": "https://api.github.com/repos/agallou/visibility-extension/zipball/ffdeaa14f74e57d597805896c9914baf73850d85",
+                "reference": "ffdeaa14f74e57d597805896c9914baf73850d85",
                 "shasum": ""
             },
-            "require-dev": {
-                "atoum/atoum": "<3.0"
+            "require": {
+                "atoum/atoum": "^2.8"
             },
             "type": "library",
             "autoload": {
@@ -328,7 +358,6 @@
                     "autoloader.php"
                 ]
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD"
             ],
@@ -347,7 +376,10 @@
                 "unit testing",
                 "visibility"
             ],
-            "time": "2016-01-08 14:21:25"
+            "support": {
+                "source": "https://github.com/agallou/visibility-extension/tree/self_register"
+            },
+            "time": "2016-06-23 21:41:39"
         },
         {
             "name": "henrikbjorn/lurker",
@@ -747,16 +779,30 @@
     "packages-dev": [],
     "aliases": [
         {
-            "alias": "2.7.0",
-            "alias_normalized": "2.7.0.0",
-            "version": "dev-edition_configuration_v2",
+            "alias": "2.8.0",
+            "alias_normalized": "2.8.0.0",
+            "version": "dev-merge_prs",
             "package": "atoum/atoum"
+        },
+        {
+            "alias": "0.1.0",
+            "alias_normalized": "0.1.0.0",
+            "version": "dev-self_register",
+            "package": "atoum/autoloop-extension"
+        },
+        {
+            "alias": "1.1",
+            "alias_normalized": "1.1.0.0",
+            "version": "dev-self_register",
+            "package": "atoum/visibility-extension"
         }
     ],
     "minimum-stability": "dev",
     "stability-flags": {
         "atoum/standard-edition": 20,
-        "atoum/atoum": 20
+        "atoum/atoum": 20,
+        "atoum/autoloop-extension": 20,
+        "atoum/visibility-extension": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,

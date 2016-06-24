@@ -4,7 +4,7 @@
    "repositories": [
         {
             "type": "vcs",
-            "url": "/home/agallou/Projets/atoum-standard-edition"
+            "url": "https://github.com/agallou/atoum-standard-edition"
         },
         {
             "type": "vcs",
@@ -12,12 +12,26 @@
         },
         {
             "type": "vcs",
-            "url": "/home/agallou/Projets/atoum"
+            "url": "https://github.com/agallou/autoloop-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/visibility-extension"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/atoum"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/agallou/reports-extension"
         }
     ],
     "require": {
-      "atoum/standard-edition": "dev-changements",
-      "atoum/atoum": "dev-edition_configuration_v2 as 2.7.0"
+      "atoum/standard-edition": "dev-master",
+      "atoum/atoum": "dev-merge_prs as 2.8.0",
+      "atoum/autoloop-extension": "dev-self_register as 0.1.0",
+      "atoum/visibility-extension": "dev-self_register as 1.1"
     },
     "autoload": {
       "psr-4": {
